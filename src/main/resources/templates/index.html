@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Thymeleaf模板</h1>
+	<h1>请求数据:[[${data}]]</h1>
+	使用指令输出数据:<span th:each="temp:${data}">[[${temp}]],</span>
+</body>
+</html>
